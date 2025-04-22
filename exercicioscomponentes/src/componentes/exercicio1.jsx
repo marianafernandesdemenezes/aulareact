@@ -1,11 +1,12 @@
-export default function Exercicio1({ fah })
+export default function exercicio1({ fah })
 {
-    let temperatura = Number
-    return(
-   <div>
-    <h3> chamadas para o Exercicio 1 </h3>
-    
-    
-   </div> 
+    let celsius = (fah - 32) * 5/9;
+
+    return (
+        <div>
+            A temperatura {fah}°F em Celsius é {celsius} ºC.
+
+        </div>
     )
+    
 }
