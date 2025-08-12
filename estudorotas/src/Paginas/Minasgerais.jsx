@@ -11,7 +11,7 @@ export default function Minasgerais()
        </p>
 
        <p>
-            <img scr="" />
+            <img src="/MG.png" />
         </p> 
         <p>
             <a href="/"> Voltar para Home</a>

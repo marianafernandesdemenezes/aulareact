@@ -1,0 +1,24 @@
+body
+{
+    margin : 0;
+    padding: 0;
+}
+
+h1 
+{
+    background-color: hotpink;
+    color : mistyrose;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+a
+{
+    color : lightpink;
+}
+
+img
+{
+    width: 500px;
+}

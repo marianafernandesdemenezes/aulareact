@@ -12,7 +12,7 @@ export default function EspiritoSantos()
        </p>
 
        <p>
-            <img scr="" />
+            <img src="/ES.png" />
         </p> 
         <p>
             <a href="/"> Voltar para Home</a>
