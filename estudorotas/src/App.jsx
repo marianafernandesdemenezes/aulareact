@@ -9,6 +9,15 @@ import SantaCatarina from "./Paginas/SantaCatarina";
 import RioGrandeSul from "./Paginas/RioGandeSul";
 
 
+import Bahia from "./Paginas/Bahia";
+import Alagoas from "./Paginas/Alagoas";
+import Maranhao from "./Paginas/Maranhao";
+import Piaui from "./Paginas/Piaui";
+import RioGrandeNorte from "./Paginas/RioGrandeNorte";
+import Rondonia from "./Paginas/Rondonia";
+import Sergipe from "./Paginas/Sergipe";
+
+
 import "./App.css";
 export default function App()
 {
@@ -23,6 +32,17 @@ export default function App()
         <Route path="/pa" element={<Parana />}/>
         <Route path="/rs" element={<RioGrandeSul />}/>
         <Route path="/sc" element={<SantaCatarina />}/>
+
+
+        
+        <Route path="/BH" element={<Bahia />}/>
+        <Route path="/AL" element={<Alagoas />}/>
+        <Route path="/MR" element={<Maranhao />}/>
+        <Route path="/PI" element={<Piaui />}/>
+        <Route path="/RN" element={<RioGrandeNorte />}/>
+        <Route path="/RD" element={<Rondonia />}/>
+        <Route path="/PR" element={<Parana />}/>
+        <Route path="/SG" element={<Sergipe />}/>
  </Routes>
  </BrowserRouter>
     );
